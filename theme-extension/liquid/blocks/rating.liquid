@@ -1,7 +1,8 @@
 {% assign avg_rating = block.settings.product.metafields.demo.avg_rating.value | round %}
-<span style="color:{{ block.settings.colour }}">
+<span style="color:{{ block.settings.colour.hex }}">
   {% render 'stars', rating: avg_rating %}
 </span>
+
 {% if avg_rating >= 4 %}
   <br>
   <img src="{{ "thumbs-up.png" | asset_img_url: '15x' }}" height="15" width="15" loading="lazy">
@@ -10,7 +11,7 @@
 
 {% schema %}
 {
-  "name": "Star Rating",
+  "label": "Star Rating",
   "target": "section",
   "settings": [
     {
