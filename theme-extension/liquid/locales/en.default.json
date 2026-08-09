@@ -1,10 +1,8 @@
 {
-    "ratings": {
-      "stars": {
-        "label": "Ratings"
-      },
-      "home": {
-        "recommendationText": "Recommended Product!"
-      }
-    }
+  "star_rating": {
+    "label": "Customer rating"
+  },
+  "announcement_bar": {
+    "dismiss": "Dismiss"
   }
+}
