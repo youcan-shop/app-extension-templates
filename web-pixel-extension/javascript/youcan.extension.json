@@ -1,0 +1,19 @@
+{
+  "runtime_context": "strict",
+  "customer_privacy": {
+    "analytics": true,
+    "marketing": true,
+    "preferences": false,
+    "sale_of_data": "enabled"
+  },
+  "settings": {
+    "type": "object",
+    "fields": {
+      "account_id": {
+        "name": "Account ID",
+        "description": "The account that receives the events",
+        "type": "single_line_text_field"
+      }
+    }
+  }
+}
